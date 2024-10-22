@@ -11,8 +11,17 @@ body{
     max-width: 1440px;
     margin: 0 auto;
 }
+h1{
+    color: white;
+
+}
+p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    
+}
 span{
-    color:  rgb(230, 83, 60);
+    font-family: "Dancing Script", cursive;
 }
 .nav-container{
     display: flex;
@@ -49,6 +58,35 @@ span{
     font-size: 19px;
     color: white;
 }
+#hero-section{
+    background: url(hero-section.jpg);
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+}
+.hero-title h1{
+    font-size: 77px;
+    font-weight: 900;
+    line-height: 120%;
+    padding: 55px 0;
+}
+.btn-container button{
+    color: white;
+    font-size: 19px;
+    background: rgb(230, 83, 60);
+    border-radius: 45px;
+    padding: 16px 40px;
+    margin: 35px 0;
+    border-style: none;
+    cursor: pointer;
+}
+.download-btn{
+    background: transparent!important;
+    border: 2px solid white;
+    padding: 16px 40px;
+}
+
 
 
 
