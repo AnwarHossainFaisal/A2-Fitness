@@ -82,9 +82,14 @@ span{
     cursor: pointer;
 }
 .download-btn{
-    background: transparent!important;
-    border: 2px solid white;
+    background-color: black !important; 
+    color: white; 
+    border: 2px solid #fff;
     padding: 16px 40px;
+}
+.card1{
+    margin-bottom: -175px;
+    margin-right: ;
 }
 
 
